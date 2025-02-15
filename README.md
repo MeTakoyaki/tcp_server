@@ -17,7 +17,13 @@ Kami kemudian menempatkan server ke dalam loop utamanya, tempat server menunggu 
 
 ![Screenshoot](img-asset/03.png)  
 
-Kami kemudian membuat objek thread baru yang menunjuk ke fungsi handle_client kami, dan kami berikan objek soket klien sebagai argumen. Kami kemudian memulai thread untuk menangani koneksi klien 4, di mana loop server utama siap menangani koneksi masuk lainnya. Fungsi handle_client menjalankan recv() dan kemudian mengirimkan pesan sederhana kembali ke klien.
+Kami kemudian membuat objek thread baru yang menunjuk ke fungsi handle_client kami, dan kami berikan objek soket klien sebagai argumen. Kami kemudian memulai thread untuk menangani koneksi klien,  
+
+![Screenshoot](img-asset/04.png) 
+
+di mana loop server utama siap menangani koneksi masuk lainnya. Fungsi handle_client menjalankan recv() dan kemudian mengirimkan pesan sederhana kembali ke klien.
+
+![Screenshoot](img-asset/05.png) 
 
 Anda akan melihat output-nya sebagai berikut:
 
