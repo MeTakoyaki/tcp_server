@@ -1,8 +1,8 @@
 import socket
 import threading
 
-IP='192.168.1.10'
-PORT=9998
+IP = '192.168.1.10'
+PORT = 9998
 
 def main():
     server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
