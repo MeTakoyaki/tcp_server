@@ -1,4 +1,5 @@
-# Server TCP
+# Server TCP  
+simple python based server 
 
 ## penjelasan:    
 Server TCP ini akan berguna untuk menulis command shell atau membuat proxy.
