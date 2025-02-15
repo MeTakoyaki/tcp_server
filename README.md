@@ -1,6 +1,6 @@
 # Server TCP
 
-# penjelasan:    
+## penjelasan:    
 Server TCP ini akan berguna untuk menulis command shell atau membuat proxy.
 
 ![Screenshoot](img-asset/screenshoot-code.png)
