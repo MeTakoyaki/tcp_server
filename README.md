@@ -1,6 +1,6 @@
 # Server TCP
 
-**Penjelasan:**    
+# penjelasan:    
 Server TCP ini akan berguna untuk menulis command shell atau membuat proxy.
 
 ![Screenshoot](img-asset/screenshoot-code.png)
@@ -28,5 +28,3 @@ di mana loop server utama siap menangani koneksi masuk lainnya. Fungsi handle_cl
 Anda akan melihat output-nya sebagai berikut:
 
 ![Screenshoot](img-asset/run_command.png)
-
-Sangat sederhana !, ini adalah kepingan kode yang berguna nantinya.
