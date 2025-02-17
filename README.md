@@ -13,8 +13,8 @@ This is a simple multithreaded TCP server written in Python.
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/tcp-server.git
-cd tcp-server
+git clone https://github.com/MeTakoyaki/tcp_server.git
+cd tcp_server
 pip install -r requirements.txt
 ```
 
