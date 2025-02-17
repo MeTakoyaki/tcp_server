@@ -1,31 +1,27 @@
-# Server TCP  
-simple python based TCP server 
+# Simple TCP Server
 
-## penjelasan:    
-Server TCP ini akan berguna untuk menulis command shell atau membuat proxy.
+This is a simple multithreaded TCP server written in Python.
 
-![Screenshoot](img-asset/screenshoot-code.png)
+## Features
+- Supports multiple clients using threading
+- Logs client connections and messages
+- Graceful shutdown on `CTRL+C`
+- Configurable IP, port, and buffer size
 
-Untuk memulai, kita masukkan alamat IP dan port yang diinginkan agar server mendengarkan.  
+## Requirements
+- Python 3.x
 
-![Screenshoot](img-asset/01.png)  
+## Installation
+```bash
+git clone https://github.com/yourusername/tcp-server.git
+cd tcp-server
+pip install -r requirements.txt
+```
 
-Selanjutnya, kita beri tahu server untuk mulai mendengarkan, dengan jumlah koneksi maksimum yang ditetapkan adalah 5. 
+## Usage
+```bash
+python server.py
+```
 
-![Screenshoot](img-asset/02.png)  
-
-Kami kemudian menempatkan server ke dalam loop utamanya, tempat server menunggu koneksi masuk. Ketika klien terhubung, kami menerima soket klien dalam variabel client dan detail koneksi jarak jauh dalam variabel address. 
-
-![Screenshoot](img-asset/03.png)  
-
-Kami kemudian membuat objek thread baru yang menunjuk ke fungsi handle_client kami, dan kami berikan objek soket klien sebagai argumen. Kami kemudian memulai thread untuk menangani koneksi klien,  
-
-![Screenshoot](img-asset/04.png) 
-
-di mana loop server utama siap menangani koneksi masuk lainnya. Fungsi handle_client menjalankan recv() dan kemudian mengirimkan pesan sederhana kembali ke klien.
-
-![Screenshoot](img-asset/05.png) 
-
-Anda akan melihat output-nya sebagai berikut:
-
-![Screenshoot](img-asset/run_command.png)
+## License
+MIT License
