@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## Usage
 ```bash
-python server.py
+python tcp-server.py
 ```
 
 ## License
