@@ -41,10 +41,10 @@ def main():
         logging.info(f'[*] Listening on {IP}:{PORT}')
 
         # menangani shutdown dengan baik
-        def signal_handler(sig, frame)
-        logging.info("shutting down server...")
-        server.close()
-        sys.exit(0)
+        def signal_handler(sig, frame):
+            logging.info("shutting down server...")
+            server.close()
+            sys.exit(0)
 
         signal.signal(signal.SIGINT, signal_handler) # menangani CTRL + C
 
