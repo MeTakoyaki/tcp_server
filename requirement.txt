@@ -1,0 +1,3 @@
+# proyek ini hanya menggunakan modul python built-in
+# tidak membutuhkan dependensi eksternal
+ 
